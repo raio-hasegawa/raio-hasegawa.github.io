@@ -1,0 +1,228 @@
+body {
+    padding-top: 50px; /* ヘッダーの後ろに要素が隠れないようにするため */
+    background-color: white;
+}
+
+#top{
+    background-color:white;
+    font-size: 50px;
+}
+
+#border{
+    border:double;
+    border-color: black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+header {
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 50px; /* 高さを50pxに指定 */
+    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    background:white; /* 背景色にグレーを指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display: flex; /* 中の要素を横並びにする */
+    align-items: center; /* 中の要素を上下中央に並べる */
+    z-index: 2; /* 追加 */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: content-box;
+    }
+.header {
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    }
+.header-inner {
+    display: flex;
+    align-items: center;
+    }
+.header-title{
+    color:black;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+    }
+.header-nav {
+    margin-left: auto;
+    }
+.header-nav-list {
+    display: flex;
+    }
+.header-nav-item{
+    margin-right: 30px;
+    
+    }
+.header-nav-item-link {
+    display: block;
+    color:black;
+    height: 80px;
+    line-height: 80px;
+    }
+
+ul {
+     display: flex;
+     margin-left: 0px;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+h2,p {
+    text-align:center;
+    padding:20px;
+}
+
+.slider{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height: 250px;;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+    margin:0 10px;/*スライド左右の余白調整*/
+}
+
+
+
+/* CSSコード */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.text1{
+    color: goldenrod;
+    font-size: 100px;
+    -webkit-text-stroke: 1px #FFF;
+    font-family: 'Caveat', cursive;
+    position: absolute; top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.div1 {/*親div*/
+    position: relative;/*相対配置*/
+    text-align:center;
+    }
+
+#no1{
+    width: 50%;
+    vertical-align:top;
+}
+
+#no2{
+    width: 50%;
+    vertical-align:top;
+}
+
+.NO{
+    background-color: white;
+}
+
+.id2{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+
+}
+
+.cv{
+background-color: white;
+position: relative;
+}
+
+.best{
+    font-size: 50px;
+}
+
+#best-item1{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+#best-item2{
+    position: relative;
+}
+
+#best-item3{
+    position: relative;
+}
+
+/* CSSコード */
+.rist{
+    font-size: 30px;
+    padding-bottom: 150px;
+}
+
+li {
+    font-size: 30px;
+    float: left;
+    padding: 10px;
+  }
+
+#p1{
+    position: absolute;
+    bottom: 75px;
+    right: 200px
+}
+
+#p2{
+    position: absolute;
+    bottom: 75px;
+    left: 500px;
+}
+
+#p3{
+    position: absolute;
+    bottom: 75px;
+    left: 120px;
+}
+
+.SNS{
+    background-color: gainsboro;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#kuuhaku{
+    padding-bottom: 20px;
+}
+
+ .footer a {
+     text-decoration: none;
+     font-weight: bold; 
+     color: black;
+ }
+
+ 
+ .footer li {
+    list-style: none;
+}
+ 
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+} 
